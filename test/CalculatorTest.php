@@ -11,7 +11,7 @@ class CalculatorTest extends PHPUnit_Framework_TestCase {
 	public function inputNumbers(){
 		return [
 			[2,2,4],
-			[-2,-5,-8],
+			[-2,-5,-7],
 			[4,5,9]
 		];
 	}
