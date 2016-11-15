@@ -1,0 +1,12 @@
+{	"name": "Nettuts PHPCS Demo",
+    "require": {
+        "squizlabs/php_codesniffer": "*",
+        "fabpot/php-cs-fixer": "*",
+        "phpmd/phpmd": "*"
+    },
+	"autoload":{
+		"classmap":[
+			"app/Libraries"
+		]
+	}
+}
