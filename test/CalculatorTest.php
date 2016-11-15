@@ -21,7 +21,7 @@ class CalculatorTest extends PHPUnit_Framework_TestCase {
 	*/
 	public function testAddNumbers($x,$y,$sum){
 		$this->assertEquals($sum,$this->calculator->add($x,$y));
-		// $this->assertEquals(5,$calc->add(2.5,2.5));
+		
 	}
 
 	/**
